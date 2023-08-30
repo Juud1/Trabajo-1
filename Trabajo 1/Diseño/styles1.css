@@ -1,43 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Quicksand:wght@700&display=swap');
+
+
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    font-family: 'Barlow', sans-serif;
 }
 
 header{
     display: flex;
-    background-color: aqua;
-    justify-content: center;
+    background-color: #481D24;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 .logo{
     display: flex;
-    align-items: ;
+    padding: 0 40px;
 }
 
 .logo img{
-    height: 50px;
+    height: 40px;
     margin-right: 10px;
 }
 
- nav a{
-    display: inline-block;
-    text-decoration: none;
-    color: blueviolet;
-    margin: 0 30px;
-    padding: 5px 15px;
+ nav{
+    float: right;
+    margin-right: 80px;
  }
 
  nav a:hover{
-    background-color: aliceblue;
-    color: blue;
+    display: inline-block;
+    line-height: 15px;
+    background-color: #eb6335;
+ }
+
+ nav a{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 13px;
+    border-radius: 10px;
+    text-transform: lowercase;
  }
 
  .encabezado{
@@ -52,11 +61,23 @@ header{
  }
 
  .encabezado h1{
-    font-size: 100px;
-    padding: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 200px;
+    padding: 25px;
+    color: #481D24;
  }
 
  .encabezado h3{
-    font-size: medium;
-    padding: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    padding: 10px;
+    color: #fff;
+   
+ }
+diimg{
+    width: 350px;
+    margin-left: 25px;
+}
+ p{
+    color: #393E41;
  }
