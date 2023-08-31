@@ -55,12 +55,17 @@ h1{
 section{
     display: flex;
     flex-wrap: wrap;
-    
-    justify-content: center center;
+    justify-content: space-between;
+    padding: 40px;
+    width: 50%;
 }
 
 article{
     width: 200px;
     margin: 10px;
     text-align: center;
+}
+.article img{
+    width: 200px;
+    border-radius: 30px;
 }
